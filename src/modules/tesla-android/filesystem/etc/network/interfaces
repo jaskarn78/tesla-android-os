@@ -2,11 +2,7 @@ source-directory /etc/network/interfaces.d
 
 auto eth0
 allow-hotplug eth0
-iface eth0 inet static
-address 10.2.7.96
-netmask 255.255.255.0
-gateway 10.2.7.1
-dns-nameservers 8.8.4.4 8.8.8.8
+iface eth0 inet manual
 
 auto wlan0
 allow-hotplug wlan0
